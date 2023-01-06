@@ -1,0 +1,81 @@
+body{
+    margin: 0 auto;
+}
+
+.timer-box{
+    margin: 50px 50px;
+    width: 600px;
+    height: 380px;
+    background: rgb(253, 48, 48);
+    border-radius: 38px;
+    box-shadow: 5px 5px 5px 2px grey;
+    position: relative;
+}
+
+#display-box{
+    width: 480px;
+    height: 80px;
+    background: rgb(151, 151, 151);
+    border-radius: 18px;
+    border: 1px black solid;
+    padding: 8px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    position: absolute;
+    width: 100px;
+    height: 38px;
+    border-radius: 15px;
+    border: 1px rgb(177, 177, 177) solid;
+    background-color: black;
+    color: aliceblue;
+    top: 150px;
+    left: 80px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settime:hover{
+    position: absolute;
+    top: 151px;
+    left: 82px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.456);
+}
+
+.inputRange{
+    position: absolute;
+    top: 220px;
+    left: 60px; 
+}
+
+#setTimeSpan{
+    position: absolute;
+    top: 250px;
+    left: 100px; 
+    font-size: 2rem;
+}
+
+.startAndPauseButtonsBlock{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 360px; 
+    gap: 20px;
+}
+
+.roundButton{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: black;
+    color:azure;
+}

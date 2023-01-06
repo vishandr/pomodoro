@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pomodoro.css">
+    <title>Pomodoro-timer</title>
+</head>
+<body>
+    <div class="timer-box"> 
+        <div id="display-box">
+            <span id="display-minutes">20</span>:<span id="display-seconds">00</span>
+        </div>
+        <button class="button" id="settime">SET TIME</button>
+        <input type="range" class="inputRange" min="5" max="45" value="20"> 
+        <span id="setTimeSpan">20</span>
+        <div class="startAndPauseButtonsBlock">
+            <button class="roundButton">START</button>
+            <button class="roundButton">PAUSE</button>
+        </div>
+    </div>
+    
+</body>
+<script src="pomodoro.js"></script>
+</html>
